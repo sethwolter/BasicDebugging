@@ -1,0 +1,6 @@
+C:\Work\Assignments\BasicDebugging\BasicDebugging\bin\Debug\BasicDebugging.exe.config
+C:\Work\Assignments\BasicDebugging\BasicDebugging\bin\Debug\BasicDebugging.exe
+C:\Work\Assignments\BasicDebugging\BasicDebugging\bin\Debug\BasicDebugging.pdb
+C:\Work\Assignments\BasicDebugging\BasicDebugging\obj\Debug\BasicDebugging.csprojResolveAssemblyReference.cache
+C:\Work\Assignments\BasicDebugging\BasicDebugging\obj\Debug\BasicDebugging.exe
+C:\Work\Assignments\BasicDebugging\BasicDebugging\obj\Debug\BasicDebugging.pdb
