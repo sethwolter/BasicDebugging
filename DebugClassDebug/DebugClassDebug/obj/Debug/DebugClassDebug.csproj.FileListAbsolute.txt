@@ -1,0 +1,6 @@
+C:\Work\Assignments\DebugClassDebug\DebugClassDebug\bin\Debug\DebugClassDebug.exe.config
+C:\Work\Assignments\DebugClassDebug\DebugClassDebug\obj\Debug\DebugClassDebug.csprojResolveAssemblyReference.cache
+C:\Work\Assignments\DebugClassDebug\DebugClassDebug\bin\Debug\DebugClassDebug.exe
+C:\Work\Assignments\DebugClassDebug\DebugClassDebug\bin\Debug\DebugClassDebug.pdb
+C:\Work\Assignments\DebugClassDebug\DebugClassDebug\obj\Debug\DebugClassDebug.exe
+C:\Work\Assignments\DebugClassDebug\DebugClassDebug\obj\Debug\DebugClassDebug.pdb
