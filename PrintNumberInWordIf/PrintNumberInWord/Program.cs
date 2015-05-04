@@ -2,7 +2,7 @@
 //04/23/2015
 //Claim-Academy .NET
 //Program 1.2:
-//Exercise PrintNumberInWord (switch-case): 
+//Exercise PrintNumberInWord (IF): 
 //Write a program called PrintNumberInWord which prints "ONE", "TWO",... , "NINE", "OTHER" 
 //if the int variable number is 1, 2,... , 9, or other, respectively.
 
@@ -18,9 +18,9 @@ namespace PrintNumberInWord
     {
         static void Main(string[] args)
         {
-            int num1;
+            int num1; //declare some simp variables
 
-            Console.WriteLine("Welcome to Seth's simple number to word text converter.");
+            Console.WriteLine("Welcome to Seth's simple number to word text converter."); //get user input....
             Console.WriteLine();
             Console.WriteLine("I appreciate you being here!");
             Console.WriteLine();
@@ -33,15 +33,15 @@ namespace PrintNumberInWord
             Console.WriteLine("To get going, let's have you enter a number between 1 and 10: ");
             Console.WriteLine();
 
-            num1 = Convert.ToInt32(Console.ReadLine());
+            num1 = Convert.ToInt32(Console.ReadLine()); //convert to string.. not sure why
             Console.WriteLine();
 
-            if (num1 == 1)
+            if (num1 == 1) //first 'if' checking to see if number is equal to variable input
             {
-                Console.WriteLine("Your number is One!");
+                Console.WriteLine("Your number is One!"); //output to screen if condition is met...
                 Console.WriteLine();
-
-                if (num1 == 2)
+            }
+                if (num1 == 2) //this is actually a nested if... but this is as nested as it gets... /// if else all the rest
                 {
                     Console.WriteLine("Your number is Two!");
                     Console.WriteLine();
@@ -86,10 +86,10 @@ namespace PrintNumberInWord
                     Console.WriteLine("Your number is Ten!");
                     Console.WriteLine();
                 }
-            }
+            
             else
             {
-                Console.WriteLine("What were you thinking man?!!!");
+                Console.WriteLine("What were you thinking man?!!!"); //what happens if variable input is not what we are expecting...
                 Console.WriteLine();
             }
 

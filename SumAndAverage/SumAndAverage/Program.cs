@@ -21,14 +21,14 @@ namespace SumAndAverage
         static void Main(string[] args)
         {
 
-            decimal numSum = 0.00m;
-            decimal numAvg = 0.00m;
+            double numSum = 0; //change to double to 
+            double numAvg = 0.0;
             //int count = 0;
 
                 for(int i = 1; i <= 100; i++)
                 {
                     numSum = numSum + i;
-                    numAvg = numSum % 100.00m;
+                    numAvg = numSum / 100;
 
                    // if (i <= 100 && i >= 1)
                        // count++;

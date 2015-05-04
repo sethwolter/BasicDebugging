@@ -22,7 +22,7 @@ namespace SumAndAverageDiv7
         {
             decimal numSum = 0.00m; //declaring some variables
             decimal numAvg = 0.00m;
-            int count = 0;
+            double count = 0;
 
             for (int i = 0; i <= 100; i++) //for loop sets limits, how many times, etc...
             {
@@ -34,6 +34,7 @@ namespace SumAndAverageDiv7
                     count++; //rinse and repeat
                 }
             }
+            count = 100 / 7;
 
             Console.WriteLine("More number tricks eh?... Man you are nothing if not predictable..."); //same dialogue again.. this guy is getting predictable
             Console.WriteLine();

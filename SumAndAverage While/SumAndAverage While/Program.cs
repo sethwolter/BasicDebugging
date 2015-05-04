@@ -20,19 +20,19 @@ namespace SumAndAverage_While
     {
         static void Main(string[] args)
         {
-            decimal numSum = 0.00m; //declaring variables
-            decimal numAvg = 0.00m;
+            decimal numSum = 0; //declaring variables
+            decimal numAvg = 0;
 
             int i = 0;
 
             while (i <= 100) //beginning of while loop
             {
                 numSum = numSum + i; //formula/maths for numSum
-                numAvg = numSum % 100.00m; //formula for getting average
+                numAvg = numSum % 100; //formula for getting average
                 i++; //looping back and counting
             }
 
-            Console.WriteLine("So you want to see some number tricks eh?"); //again with teh amusing dialogue...
+            Console.WriteLine("So you want to see some number tricks eh?"); //again with the amusing dialogue...
             Console.WriteLine();
             Console.WriteLine("How about we get the sum all the numbers from 1 to 100?");
             Console.WriteLine();

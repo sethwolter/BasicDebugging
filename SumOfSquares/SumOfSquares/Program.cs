@@ -31,7 +31,7 @@ namespace SumOfSquares
 
             numSum = N * (N + 1) / 2; // simpler formula for delivering sum of natural numbers 1 to 100
             numSqr = (N * (N + 1) * (2 * N + 1)) / 6; // formula mod to adjust to square format... no real idea how this works... thanks google!
-
+            //338350 is the sume of squares
             result = numSum * numSum - numSqr; // formula for delivering results 
             numAvg = result / 100m; // simple average formula
 
@@ -57,8 +57,8 @@ namespace SumOfSquares
             Console.WriteLine();
             Console.WriteLine("Still not impressed eh?... Sheesh.... You are hard to please...");
             Console.WriteLine();
-            Console.WriteLine("By the way... there were " + count + " numbers used in that whole mess");
-            Console.WriteLine();
+           // Console.WriteLine("By the way... there were " + count + " numbers used in that whole mess");
+           // Console.WriteLine();
 
             Console.ReadLine();
         }
